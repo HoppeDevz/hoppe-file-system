@@ -1,0 +1,10 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx "C:\Users\Gabriel Hoppe\Desktop\learn-rescript\node_modules\bs-platform\win32\bsc.exe -as-ppx "
+S C:\Users\Gabriel Hoppe\Desktop\learn-rescript\node_modules\bs-platform\lib\ocaml
+B C:\Users\Gabriel Hoppe\Desktop\learn-rescript\node_modules\bs-platform\lib\ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S src
+B lib\bs\src
+S src\types
+B lib\bs\src\types
+####BSB GENERATED: NO EDIT}

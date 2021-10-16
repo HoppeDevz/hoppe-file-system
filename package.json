@@ -1,0 +1,17 @@
+{
+  "name": "res-mysql",
+  "version": "1.0.0",
+  "description": "A rescript module to management your sql database!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.bs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs-platform": "^9.0.2",
+    "rescript": "^9.1.4"
+  }
+}
