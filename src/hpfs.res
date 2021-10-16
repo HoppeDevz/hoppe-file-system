@@ -17,7 +17,7 @@ open Types
 @send external stringifyByteArr: array<int> => string = "toString"
 @send external stringifyArr: array<'a> => string = "toString"
 
-module HoppeFileSystem = {
+module Hpfs = {
 
     let readFileSync = readFileSync
     let readdirSync = readdirSync

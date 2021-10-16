@@ -1,9 +1,9 @@
-open HoppeFileSystem
+open Hpfs
 
 try {
 
     readFileSync("C:\\FiveFps\\log - Copy.txt")
-    -> HoppeFileSystem.byteArrStringify -> Js.log
+    -> Hpfs.byteArrStringify -> Js.log
 
 
 } catch {
@@ -11,10 +11,10 @@ try {
 }
 
 // get current file directory
-let __dirname = HoppeFileSystem.getDirName() -> Js.log
+let __dirname = Hpfs.getDirName() -> Js.log
 
-HoppeFileSystem.writeFileSync(
-  ~file = HoppeFileSystem.getDirName() ++ "\\text.txt", 
+Hpfs.writeFileSync(
+  ~file = Hpfs.getDirName() ++ "\\text.txt", 
   ~data = "ASD", 
   ~options = { encondig: "utf-8" }
 )
