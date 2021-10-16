@@ -4,4 +4,12 @@ module Types = {
 
         message: string
     }
+
+
+    type writeFileSyncOptions = {
+
+        encondig: string
+    }
+
+    type writeFileSyncData = string
 }

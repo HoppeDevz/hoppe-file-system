@@ -12,3 +12,9 @@ try {
 
 // get current file directory
 let __dirname = HoppeFileSystem.getDirName() -> Js.log
+
+HoppeFileSystem.writeFileSync(
+  ~file = HoppeFileSystem.getDirName() ++ "\\text.txt", 
+  ~data = "ASD", 
+  ~options = { encondig: "utf-8" }
+)
