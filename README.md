@@ -7,3 +7,4 @@
 | readdirSync      | dir: string         | dirArr: array<string> |
 | stringifyByteArr | byteArr: array<int> | str: string           |
 | stringifyArr     | arr: arr<'a>        | str: string           |
+| getDirName       | unit: ()            | dirname: string       |

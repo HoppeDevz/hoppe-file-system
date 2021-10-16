@@ -9,3 +9,6 @@ try {
 } catch {
   | err => err |> Js.log
 }
+
+// get current file directory
+let __dirname = HoppeFileSystem.getDirName() -> Js.log
